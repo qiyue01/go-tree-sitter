@@ -13,3 +13,7 @@ func GetLanguage() *sitter.Language {
 	ptr := unsafe.Pointer(C.tree_sitter_go())
 	return sitter.NewLanguage(ptr)
 }
+
+func SwiftLanguage() unsafe.Pointer {
+	return unsafe.Pointer(C.tree_sitter_go())
+}
