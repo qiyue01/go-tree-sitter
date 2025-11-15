@@ -1,4 +1,4 @@
-module github.com/smacker/go-tree-sitter
+module github.com/qiyue01/go-tree-sitter
 
 go 1.20
 
